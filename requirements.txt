@@ -1,0 +1,51 @@
+https://www.kaggle.com/datasets/kartik2112/fraud-detection
+1. Dataset
+
+Common choice: Kaggle Credit Card Fraud Detection dataset
+284,807 transactions
+Anonymized features (V1 to V28), Amount, Time, and Class (0 = legit, 1 = fraud)
+
+ 2. Technical Stack
+
+Languages & Libraries:
+Python
+
+Libraries:
+
+pandas, numpy (data handling)
+scikit-learn (modeling, metrics, preprocessing)
+matplotlib, seaborn (visualization)
+imbalanced-learn (SMOTE, resampling techniques)
+xgboost, lightgbm (optional advanced models)
+
+3. System Requirements
+
+At least 4GB RAM (8GB+ preferred)
+Python 3.7+
+Jupyter Notebook or an IDE like VSCode/PyCharm
+
+4. Data Preprocessing
+
+Handle class imbalance using:
+Undersampling, Oversampling
+SMOTE (Synthetic Minority Over-sampling Technique)
+Feature scaling: StandardScaler or MinMaxScaler
+Optional: Dimensionality reduction with PCA
+
+5. Modeling
+
+Logistic Regression (baseline)
+Random Forest
+
+6. Evaluation Metrics
+
+Accuracy (not very useful here)
+Precision, Recall, F1-score
+Confusion Matrix
+
+7. Deployment (optional)
+Streamlit/Flask (for web UI)
+GitHub (version control)
+
+
+
